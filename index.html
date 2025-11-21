@@ -40,6 +40,37 @@
       padding: 10px;
       margin-top: 20px;
     }
+    ul.timeline {
+      list-style: none;
+      padding: 0;
+    }
+    ul.timeline li {
+      margin: 10px 0;
+      padding: 10px;
+      background: #e6f0ff;
+      border-left: 5px solid #004080;
+    }
+    form {
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #004080;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0066cc;
+    }
   </style>
 </head>
 <body>
@@ -49,7 +80,7 @@
   </header>
 
   <main>
-<img src="i.webp" alt="Здание горисполкома" width="600">
+    <img src="i.webp" alt="Здание горисполкома" width="600">
 
     <section id="history">
       <h2>История здания</h2>
@@ -64,16 +95,27 @@
         управления, сохранив свою значимость и сегодня.
       </p>
     </section>
-  </main>
-  <section id="timeline">
-  <h2>История здания</h2>
-  <ul>
-    <li><strong>1950-е:</strong> Построено здание горисполкома.</li>
-    <li><strong>1970-е:</strong> Реконструкция фасада.</li>
-    <li><strong>2000-е:</strong> Современная реставрация.</li>
-  </ul>
-</section>
 
+    <!-- Хронология -->
+    <section id="timeline">
+      <h2>Хронология</h2>
+      <ul class="timeline">
+        <li><strong>1950-е:</strong> Построено здание горисполкома.</li>
+        <li><strong>1970-е:</strong> Проведена реконструкция фасада.</li>
+        <li><strong>1990-е:</strong> Созданы новые отделы для работы с населением.</li>
+        <li><strong>2000-е:</strong> Современная реставрация и обновление интерьеров.</li>
+        <li><strong>2020-е:</strong> Внедрение цифровых технологий в управление.</li>
+      </ul>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <p>Адрес: ул. Центральная, 1, г. Барановичи</p>
+      <p>Телефон: +375 (163) 65-26-40</p>
+      <p>Обращения: https://обращения.бел/</p>
+
+      
 
   <footer>
     <p>&copy; 2025 Горисполком. Все права защищены.</p>
